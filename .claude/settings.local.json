@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m pytest tests/test_project_structure.py -v)",
+      "Bash(python3 -m pip install:*)",
+      "Bash(python3:*)",
+      "Bash(source:*)",
+      "Bash(pip install:*)",
+      "Bash(mkdir:*)",
+      "Bash(python -m pytest tests/test_server_basic.py -v)",
+      "Bash(python -m pytest tests/test_tools_interface.py -v)",
+      "Bash(python -m pytest tests/test_basic_tools.py -v)",
+      "Bash(python -m pytest tests/test_basic_tools.py::TestPriceRankingTool::test_ranking_tool_validation_error -v)",
+      "Bash(python -m pytest tests/test_api_client.py::TestAPIConstants -v)",
+      "Bash(python -m pytest tests/test_integrated_tool.py::TestIntegratedPriceRankingTool::test_tool_creation -v)",
+      "Bash(python -m pytest tests/ -v --tb=short)",
+      "Bash(python:*)"
+    ],
+    "deny": []
+  }
+}

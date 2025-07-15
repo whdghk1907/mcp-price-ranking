@@ -1,0 +1,33 @@
+# MCP 및 비동기 처리
+mcp>=0.5.0
+aiohttp>=3.9.0
+asyncio-mqtt>=0.13.0
+
+# 데이터 처리 및 분석
+pandas>=2.1.0
+numpy>=1.24.0
+TA-Lib>=0.4.25
+
+# 데이터 검증 및 직렬화
+pydantic>=2.4.0
+python-dotenv>=1.0.0
+
+# 캐싱 및 성능
+redis>=5.0.0
+numba>=0.58.0
+
+# 테스트
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.1.0
+
+# 개발 도구
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.5.0
+
+# 로깅 및 모니터링
+structlog>=23.0.0
+
+# HTTP 클라이언트
+httpx>=0.25.0
